@@ -4,7 +4,7 @@ import numpy as np
 # distribution_parameters = {'low': 10, 'high': 1500, 'size': 3}
 
 distribution = np.random.chisquare
-distribution_parameters = {'df': 3, 'size': 50}
+distribution_parameters = {'df': 10, 'size': 60}  # 'df' is degrees of freedom
 times = 10
 
 
